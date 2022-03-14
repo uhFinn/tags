@@ -1,0 +1,12 @@
+uhfinn\tags\Mdules\TagGrabber.class
+uhfinn\tags\Mdules\TextProcess.class
+uhfinn\tags\Mdules\YML\KeyData.class
+uhfinn\tags\Mdules\TagUI.class
+uhfinn\tags\Listeners\UpdateChecker.class
+uhfinn\tags\Mdules\Parse.class
+uhfinn\tags\Main.class
+uhfinn\tags\Mdules\YML\PlayerData.class
+uhfinn\tags\Listeners\PlayerJoin.class
+uhfinn\tags\Mdules\PAPI\PapiReplacement.class
+uhfinn\tags\Mdules\PAPI\Placeholders.class
+uhfinn\tags\Mdules\YML\YmlHandler.class

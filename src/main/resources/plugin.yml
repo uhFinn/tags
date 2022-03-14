@@ -1,0 +1,4 @@
+name: Tags
+version: '${project.version}'
+main: uhfinn.tags.Main
+api-version: 1.18

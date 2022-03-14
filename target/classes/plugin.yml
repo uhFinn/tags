@@ -1,0 +1,4 @@
+name: Tags
+version: '1.0-SNAPSHOT'
+main: uhfinn.tags.Main
+api-version: 1.18

@@ -1,0 +1,87 @@
+#--[################################################################]
+#--[##################### GENERAL INFORMATION ######################]
+#--[################################################################]
+
+# Don't delete anything below, just edit the fields!
+# General Reminder: true means yes; false means no
+# If you ever feel like you have messed up and need to get the file back to its default state just delete the .yml file and restart the server
+# The majority of text based fields within this file support external placeholders from PlaceholderAPI
+
+# If you have any questions you can always get support at: https://discord.gg/9jyHhUepaG
+
+
+#--[################################################################]
+#--[####################### GENERAL SETTINGS #######################]
+#--[################################################################]
+
+# Whether or not to print detectable plugin errors to console (Recommended to leave as true for debugging reasons)
+PrintErrorsToConsole: true
+
+# Print other random extra details to console, can get quite annoying so default is false
+PrintExtraDetailsToConsole: false
+
+# The plugins prefix shown in chat commands/console outputs
+PluginPrefix: "&8[&6TAGS&8]"
+
+# Whether or not the plugin should check for updates
+CheckForUpdates: true
+
+
+#--[################################################################]
+#--[######################### GUI SETTINGS #########################]
+#--[################################################################]
+#
+# Here you can configure the entirety of the Tags GUI,
+#
+#
+GUI:
+  name: "&a&lTotal Tags: &a%tags_available%"
+
+  Available Tag:
+    name: "{tagText}"
+    icon: NAME_TAG
+    lore:
+      - "{tagDescription}"
+      - "&7ID: {tagID}"
+    enchanted: false
+
+  Active Tag:
+    name: "{tagText}"
+    icon: NAME_TAG
+    lore:
+      - "{tagDescription}"
+      - "&7ID: {tagID}"
+    enchanted: true
+
+  GUI Border:
+    name: " "
+    icon: GREY_STAINED_GLASS_PANE
+    lore: ""
+    enchanted: false
+
+  Head Icon:
+    name: "%player_name%"
+    lore:
+      - "&fActive Tag: %tags_active%"
+      - "&fTotal Tags: &l%tags_available%"
+    enchanted: false
+
+  Next Page:
+    name: "&f&lNext Page"
+    icon: ARROW
+    enchanted: false
+
+  Previous Page:
+    name: "&f&lPrevious Page"
+    icon: ARROW
+    enchanted: false
+
+  Disable Tag:
+    name: "&c&lDisable Active Tag"
+    icon: BARRIER
+    enchanted: false
+
+  Exit Menu:
+    name: "&c&lExit Menu"
+    icon: IRON_DOOR
+    enchanted: false

@@ -1,0 +1,9 @@
+./Tags/PlayerData/ is Tags primary storage method for storing a players active tag,
+In this directory a file is created for each player, don't worry however as these
+files will most likely be in the region of 20 bytes each, this means you could store
+over 50,000 people before using even a megabyte of storage! (on average)
+
+If you have any questions regarding the storage system don't hesitate to ask,
+Discord:   https://discord.gg/9jyHhUepaG       [Average 12 hour response time]
+Email:     support@uhfinn.dev                  [Average 3 day response time]
+Or just message me through spigot, I can't really guarantee a response time though!

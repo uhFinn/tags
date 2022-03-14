@@ -1,0 +1,19 @@
+#--[################################################################]
+#--[######################### INSTRUCTIONS #########################]
+#--[################################################################]
+# Tags has an easy to use and understand set up,
+# To add a new tag simply follow the format below!
+#
+# tagID:                - This is the ID of the tag, you can not have two equal ID's in the file
+#   tag: ""             - This is the text of the tag, it supports standardised color codes
+#   priority: 1         - This is the priority of the tag, the higher the priority the closer to the front of the GUI it appears
+#   description: ""     - This is the description of the tag displayed in the GUI, displayed on one single line
+#
+# If you are having issues understanding the set-up and need further assistance,
+# don't hesitate to join our Discord Support Server: https://discord.gg/9jyHhUepaG
+# A full documentation website will be coming soon!
+
+example:
+  tag: "&8[&c&lEXAMPLE&8]"
+  priority: 0
+  description: "This is an example Tag!"
